@@ -1,39 +1,3 @@
-<?php
-
-if(isset($_POST['submit']))
-{
-
-include_once('config.php');
-
- switch(@$_REQUEST["page"]){
-                case "novo":
-                    include("novo-usuario.php");
-            break;
-                case "listar":
-                    include("listar-usuarios.php");
-            break;
-                case "salvar":
-                    include("salvar-usuario.php");
-            break;
-                default:
-                    print "<h1>Bem Vindos</h1>";
-
-    }
-
-$nome = $_POST['nome'];
-$sobrenome = $_POST['sobrenome'];
-$email = $_POST['email'];
-$senha = $_POST['senha'];
-$telefone = $_POST['telefone'];
-$data_nasc = $_POST['data_nasc'];
-$estado = $_POST['estado'];
-
-$result = mysqli_query($conexao, "INSERT INTO users(nome,email,data_nasc,genero,cpf) values('$nome','$sobrenome', '$telefone', '$email' '$senha','$data_nasc', '$estado')");
-
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,7 +11,7 @@ $result = mysqli_query($conexao, "INSERT INTO users(nome,email,data_nasc,genero,
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            background-color: green;
+            background-color: yellow;
         }
 
         .field{
@@ -59,6 +23,7 @@ $result = mysqli_query($conexao, "INSERT INTO users(nome,email,data_nasc,genero,
             border-radius: 36px 35px 35px 10px;
             -webkit-border-radius: 36px 35px 35px 10px;
             -moz-border-radius: 36px 35px 35px 10px;
+            background-image:; linear-gradient(yellow,gray);
         }
         .legend {
             color: #fff;
@@ -154,6 +119,23 @@ $result = mysqli_query($conexao, "INSERT INTO users(nome,email,data_nasc,genero,
         </fieldset>
         </div>
     </form>
+<?php
+            include("config.php");
+            switch(@$_REQUEST["page"]){
+                case "novo":
+                    include("novo-usuario.php");
+            break;
+                case "listar":
+                    include("listar-usuarios.php");
+            break;
+                case "salvar":
+                    include("salvar-usuario.php");
+            break;
+                default:
+                    print "<h1>Bem Vindos</h1>";
 
+    }
+
+?>
 </body>
 </html>
