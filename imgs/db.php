@@ -5,6 +5,21 @@ if(isset($_POST['submit']))
 
 include_once('config.php');
 
+ switch(@$_REQUEST["page"]){
+                case "novo":
+                    include("novo-usuario.php");
+            break;
+                case "listar":
+                    include("listar-usuarios.php");
+            break;
+                case "salvar":
+                    include("salvar-usuario.php");
+            break;
+                default:
+                    print "<h1>Bem Vindos</h1>";
+
+    }
+
 $nome = $_POST['nome'];
 $sobrenome = $_POST['sobrenome'];
 $email = $_POST['email'];
