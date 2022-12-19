@@ -2,7 +2,7 @@
     
     $dbHost = 'https://www.db4free.net';
     $dbUsername = 'volaodarj';
-    $dbPassword = '71217ca8';
+    $dbPassword = '26ec018b';
     $dbName = 'daarearj';
     
     $conexao = new mysqli('$dbHost','$dbUsername','$dbPassword','$dbName');
