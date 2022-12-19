@@ -120,7 +120,7 @@
         </div>
     </form>
 <?php
-            include("config.php");
+            include('config.php');
             switch(@$_REQUEST["page"]){
                 case "novo":
                     include("novo-usuario.php");
