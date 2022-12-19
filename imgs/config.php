@@ -1,11 +1,11 @@
 <?php
-    /*
+    
     $dbHost = 'https://www.db4free.net';
     $dbUsername = 'volaodarj';
     $dbPassword = '71217ca8';
     $dbName = 'daarearj';
-    */
-    $conexao = new mysqli('localhost:3306','volaodarj','71217ca8','daarearj');
+    
+    $conexao = new mysqli('$dbHost','$dbUsername','$dbPassword','$dbName');
 
     if($conexao->connect_errno)
     {
