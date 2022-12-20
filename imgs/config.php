@@ -1,19 +1,14 @@
 <?php
-    
-    $dbHost = 'https://www.db4free.net';
-    $dbUsername = 'volaodarj';
-    $dbPassword = '26ec018b';
-    $dbName = 'daarearj';
-    
-    $conexao = new mysqli('$dbHost','$dbUsername','$dbPassword','$dbName');
 
-    if($conexao->connect_errno)
+    $conn = new mysqli('db4free.net','volaodarj','26ec018b','darj');
+
+    if($conn->connect_errno)
     {
         echo "Errou em alguma parada";
     }
     else
     {
-        echo "Conexão rodando redondinha";
+        echo "Conexão bem sucedida ";
     }
 
 ?>
