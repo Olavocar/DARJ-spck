@@ -15,7 +15,7 @@
     <div class="row">
         <div class="col mt-5">
 <?php
-            if (isset($ _POST [ 'enviar' ]))
+            if (isset($_POST [ 'enviar' ]))
         {
             include('config.php');
             switch(@$_REQUEST["page"]){
