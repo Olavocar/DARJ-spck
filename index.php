@@ -54,8 +54,9 @@
 <div class="container">
     <div class="row">
         <div class="col mt-5">
-        <?php
-            include('config.php');
+<?php
+
+            include("config.php");
             switch($_REQUEST["page"]){
                 case "novo":
                     include("novo-usuario.php");
@@ -78,35 +79,36 @@
     </div>
 </div>
 
-<form  action =" index.php " method =" POST ">
+<form  action="index.php" method ="POST">
 <div class="box">
         <fieldset class="field">Da Área RJ              
-            <br> <br> <label class="cadastrar">Cadastre-se:</label>
+            <br> <br> <label class=" cadastrar">Cadastre-se:</label>
                     <br><br>
                         <label for="nome" class="inputtext">Nome:</label>
                             <br>
                             <input type="text"  name="nome" id="nome" class="inputUser" required/>  <br>
-                    <label for="sobrenome" class="inputtext">Sobrenome:</label>
-                           <br>               <input type="text"  name="sobrenome" id="sobrenome" class="inputUser" required/>
-                        <br>
-                        <br>
-                        <label for="email" class="inputtext">Email:</label>
+                            <label for="sobrenome" class="inputtext">Sobrenome:</label>
+                            <br>               
+                            <input type="text"  name="sobrenome" id="sobrenome" class="inputUser" required/>
                             <br>
-                           <input type="email" name="email" class="form-control" required>
+                            <br>
+                            <label for="email" class="inputtext">Email:</label>
+                            <br>
+                            <input type="email" name="email" class="form-control" required>
                             <br>
                             <label>Cadastre Sua Senha:</label><br>
                             <input type="password" name="senha" id="senha" class="form-control" required>
                             <br><br>
-                      <label for="telefone" class="inputtext">Telefone:</label>
-                           <br>
-                          <input type="text"  name="telefone" id="telefone" class="inputUser" required/>
+                            <label for="telefone" class="inputtext">Telefone:</label>
+                            <br>
+                            <input type="text"  name="telefone" id="telefone" class="inputUser" required/>
                             <br>
                             <br>
-                        <label for="data_nasc" class="inputtext">Data de Nascimento:</label>
+                            <label for="data_nasc" class="inputtext">Data de Nascimento:</label>
                             <br>    
-                        <input type="date"  name="data_nasc" id="data_nasc" class="form-control" required/>
-                         <br>
-                         <br>
+                            <input type="date"  name="data_nasc" id="data_nasc" class="form-control" required/>
+                            <br>
+                            <br>
                             <br>
                             <br>
                             <button class="btn btn-primary" name="submit" id="submit" type="submit">Enviar</button>
