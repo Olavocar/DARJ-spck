@@ -15,26 +15,23 @@
     <div class="row">
         <div class="col mt-5">
 <?php
-            if (isset($_POST ['submit']))
-        {
             include('config.php');
-            switch(@$_REQUEST["salvar-usuario.php"]){
-                case "novo":
-                    include("novo-usuario.php");
-            break;
-                case "listar":
-                    include("listar-usuarios.php");
-            break;
-                case "salvar":
-                    include("salvar-usuario.php");
-            break;
-                default:
-                    print "<h1>Bem Vindos</h1>";
-
+            if (isset($_POST ['submit']))
+    {
+            $nome = $_POST['nome'];
+            $sobrenome = $_POST['sobrenome'];
+            $email = $_POST['email'];
+            $senha = $_POST['senha'];
+            $telefone = $_POST['telefone'];
+            $data_nasc = $_POST['data_nasc'];        
+            $query = mysqli_query($conn, "INSERT INTO cadastro (nome, sobrenome, email, senha, telefone, data_nasc) VALUES ('{$nome}', '{$sobrenome}', '{$email}', '{$senha}', '{$telefone}', '{$data_nasc}')");
     }
-        
-
-        }    
+        if($query){
+        echo 'Cadastro realizado com sucesso';
+        }else {
+        echo 'Falha ao realizar cadastro';
+        }
+            
 ?>
         </div>
     </div>
