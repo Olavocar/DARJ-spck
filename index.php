@@ -1,19 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width-device-width, initial-scale-1">
-
-        <link href="style.css" rel="stylesheet">
-
-        <title>Cadastro</title>
-
-    </head>
-    <body>
-
-<div class="container">
-    <div class="row">
-        <div class="col mt-5">
 <?php
               $dbHost = 'db4free.net:3306';
               $dbUsername = 'volaodarj';
@@ -39,12 +23,23 @@
         }
             
 ?>
-        </div>
-    </div>
-</div>
 
-<form action="" method ="POST">
-<div class="box">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1">
+
+        <link href="style.css" rel="stylesheet">
+
+        <title>Cadastro</title>
+</head>
+ <body>
+  <div class="container">
+    <div class="row">
+     <div class="col mt-5">
+ <form action="" method ="POST">
+ <div class="box">
         <fieldset class="field">Da Área RJ              
             <br> <br> <label class="cadastrar">Cadastre-se:</label>
                     <br><br>
@@ -78,10 +73,12 @@
                             <br>
                             <button class="btn btn-primary" name="submit" id="submit" type="submit">Enviar</button>
         </fieldset>
-</div>
-</form>
-
-</body>
+      </div>
+     </form>
+    </div>
+   </div>
+  </div>
+ </body>
 </html>
 
 <!--
