@@ -15,10 +15,10 @@
     <div class="row">
         <div class="col mt-5">
 <?php
-            if (isset($_POST [ 'enviar' ]))
+            if (isset($_POST ['submit']))
         {
             include('config.php');
-            switch(@$_REQUEST["page"]){
+            switch(@$_REQUEST["salvar-usuario.php"]){
                 case "novo":
                     include("novo-usuario.php");
             break;
@@ -40,7 +40,7 @@
     </div>
 </div>
 
-<form  action="" method ="POST">
+<form action="" method ="POST">
 <div class="box">
         <fieldset class="field">Da Área RJ              
             <br> <br> <label class=" cadastrar">Cadastre-se:</label>
