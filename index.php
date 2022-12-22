@@ -24,7 +24,7 @@
             $senha = $_POST['senha'];
             $telefone = $_POST['telefone'];
             $data_nasc = $_POST['data_nasc'];        
-            $query = mysqli_query($conn, "INSERT INTO cadastro (nome, sobrenome, email, senha, telefone, data_nasc) VALUES ('{$nome}', '{$sobrenome}', '{$email}', '{$senha}', '{$telefone}', '{$data_nasc}')");
+            $query = mysqli_query($conn, "INSERT INTO cadastro (nome, sobrenome, email, senha, telefone, data_nasc) VALUES ('$nome', '$sobrenome', '$email', '$senha', '$telefone', '$data_nasc')");
     }
         if($query){
         echo 'Cadastro realizado com sucesso';
