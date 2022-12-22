@@ -7,7 +7,7 @@
         $senha = $_POST["senha"];
         $data_nasc = $_POST["data_nasc"];
 
-        $sql = "INSERT INTO usuarios (nome, sobrenome,email, senha, data_nasc) VALUES ('{$nome}', '{$email}','{$sobrenome}', '{$senha}', '{$data_nasc}')";
+        $sql = "INSERT INTO cadastro (nome, sobrenome,email, senha, data_nasc) VALUES ('{$nome}', '{$email}','{$sobrenome}', '{$senha}', '{$data_nasc}')";
 
         $res = $conn->query($sql);
         

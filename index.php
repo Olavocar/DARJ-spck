@@ -79,7 +79,7 @@
     </div>
 </div>
 
-<form  action="index.php" method ="POST">
+<form  action="index.html" method ="POST">
 <div class="box">
         <fieldset class="field">Da Área RJ              
             <br> <br> <label class=" cadastrar">Cadastre-se:</label>
