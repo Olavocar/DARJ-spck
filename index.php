@@ -21,8 +21,8 @@
               $dbname = 'daarearj';
           
               $conn = mysqli_connect($dbHost,$dbUsername,$dbPassword,$dbname);
-              
-            if (isset($_POST ['submit']))
+
+            if(isset($_POST['submit']))
     {
             $nome = $_POST['nome'];
             $sobrenome = $_POST['sobrenome'];
