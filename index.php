@@ -15,7 +15,13 @@
     <div class="row">
         <div class="col mt-5">
 <?php
-            include('config.php');
+              $dbHost = 'db4free.net:3306';
+              $dbUsername = 'volaodarj';
+              $dbPassword = '26ec018b';
+              $dbname = 'daarearj';
+          
+              $conn = mysqli_connect($dbHost,$dbUsername,$dbPassword,$dbname);
+              
             if (isset($_POST ['submit']))
     {
             $nome = $_POST['nome'];
@@ -40,11 +46,12 @@
 <form action="" method ="POST">
 <div class="box">
         <fieldset class="field">Da Área RJ              
-            <br> <br> <label class=" cadastrar">Cadastre-se:</label>
+            <br> <br> <label class="cadastrar">Cadastre-se:</label>
                     <br><br>
                         <label for="nome" class="inputtext">Nome:</label>
                             <br>
-                            <input type="text"  name="nome" id="nome" class="inputUser" required/>  <br>
+                            <input type="text"  name="nome" id="nome" class="inputUser" required/>  
+                            <br>
                             <label for="sobrenome" class="inputtext">Sobrenome:</label>
                             <br>               
                             <input type="text"  name="sobrenome" id="sobrenome" class="inputUser" required/>
