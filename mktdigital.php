@@ -158,11 +158,11 @@ siga nossas redes sociais:
 </fieldset>
 <fieldset><br>
 <legend class="dados">Mande sua mensagem (Opcional)</legend>
-<label for=mensagem>Mensagem</label><br>
-<textarea id=caixamsg name=mensagem></textarea>
+<label for="mensagem">Mensagem</label><br>
+<textarea id="caixamsg" name="mensagem" placeholder="Digite sua mensagem"></textarea>
 <p>Envie seu pedido e você será redirecionado para a página de pagamento<br>
 É muito importante que você faça corretamente o pagamento , com o valor do respectivo pedido.<br>Não os responsabiliamos por pedidos feitos de maneira errada</p>
-<button type="submit" value="https://https://daarearj.herokuapp.com/pagamento.php">Enviar</button>
+<button type="submit" name="_autoresponse" value="https://https://daarearj.herokuapp.com/pagamento.php">Enviar</button>
 </p>
 </div>
 </fieldset>
