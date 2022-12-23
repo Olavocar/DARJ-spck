@@ -37,7 +37,7 @@
   <div class="container">
     <div class="row">
      <div class="col mt-5">
- <form action="login.php" method ="POST">
+ <form action="index.php" method ="POST">
  <div class="box">
         <fieldset class="field">Da Área RJ              
             <br> <br> <label class="cadastrar">Cadastre-se:</label>
