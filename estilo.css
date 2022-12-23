@@ -4,13 +4,20 @@ body {width:100%;height:1000px;background-image:linear-gradient(yellow,gray);}
 
 #menu a{margin:0 10px;text-align:center;font:bolder;}
 
+.session{
+    width:300px;
+    height:120px;
+    float:right;
+    display:flex;
+}
+
 #1{display:block;}
 
 #2{display:flex;}
 
 #bg{width:auto;height:auto;}
 
-#topo{width:100%;height:100%;margin:auto;float:left}
+#topo{width:100%;height:180px;margin:auto;float:left}
 
 #logo{width:auto;height:auto;float:left;display:flex}
 
@@ -36,7 +43,9 @@ body {width:100%;height:1000px;background-image:linear-gradient(yellow,gray);}
 
 #entrada{width:100%;height:100%;margin-top:0;float:left;margin-left:20px;display:flex}
 
-#texto{width:100%;height:100%}.entrada{width:200px;height:100%;}
+#texto{width:80%;height:100px}
+
+.entrada{width:200px;height:100%;}
 
 #lateral{width:200px;height:100%;margin:auto;float:left;display:flex;}
 
