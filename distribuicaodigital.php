@@ -1,3 +1,12 @@
+<?php
+session_start();
+include('verifica_login.php');
+?>
+<div clas="session">
+<b>Olá, <?php echo $_SESSION['email'];?></b>
+<b><a href="logout.php">Sair</a></b>
+</div>
+
 <!doctype html>
 <html>
 <head>

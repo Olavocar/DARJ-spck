@@ -6,7 +6,6 @@ include('verifica_login.php');
 <b>Olá, <?php echo $_SESSION['email'];?></b>
 <b><a href="logout.php">Sair</a></b>
 </div>
-
 <!doctype html>
 <html>
 <head>
