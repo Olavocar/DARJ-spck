@@ -163,6 +163,7 @@ siga nossas redes sociais:
 <p>Envie seu pedido e você será redirecionado para a página de pagamento<br>
 É muito importante que você faça corretamente o pagamento , com o valor do respectivo pedido.<br>Não os responsabiliamos por pedidos feitos de maneira errada</p>
 <input type="hidden" name="_next" value="https://daarearj.herokuapp.com/pagamento.php">
+<input type="hidden" name="_autoresponse" value="Recebemos sua mensagem com sucesso, obrigado pelo contato e logo responderemos">
 <button type="submit">Enviar</button>
 </p>
 </div>
