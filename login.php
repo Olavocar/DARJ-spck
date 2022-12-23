@@ -7,10 +7,10 @@ if(empty($_POST['email']) || empty($_POST['senha'])) {
 	exit();
 }
 
-$email = mysqli_real_escape_string($conn, $_POST['email']);
+$usuario = mysqli_real_escape_string($conn, $_POST['email']);
 $senha = mysqli_real_escape_string($conn, $_POST['senha']);
 
-$query = "select email from login where email = '{$email}' and senha = '{$senha}'";
+$query = "select email from cadastro where email = '{$email}' and senha = md5('{$senha}')";
 
 $result = mysqli_query($conn, $query);
 
@@ -25,5 +25,4 @@ if($row == 1) {
 	header('Location: index.php');
 	exit();
 }
-
 ?>
