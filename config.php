@@ -4,15 +4,11 @@
     $dbPassword = '26ec018b';
     $dbname = 'daarearj';
 
-    $conn = new mysqli($dbHost,$dbUsername,$dbPassword,$dbname);
+    $conn = mysqli_connect($dbHost,$dbUsername,$dbPassword,$dbname);
 
     if($conn->connect_errno)
     {
-        echo "Errou em alguma parada";
+        echo "Não foi possível conectar";
     }
-    else
-    {
-        echo "Conexão bem sucedida ";
-    }
-
+    
 ?>

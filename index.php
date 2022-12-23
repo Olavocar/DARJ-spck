@@ -18,10 +18,9 @@
     }
         if($query){
         echo 'Cadastro realizado com sucesso';
-        }else {
-        echo 'Falha ao realizar cadastro';
-        }
-            
+        header('Location: indexlogin.php');
+        exit();
+        }   
 ?>
 
 <!DOCTYPE html>
@@ -38,7 +37,7 @@
   <div class="container">
     <div class="row">
      <div class="col mt-5">
- <form action="" method ="POST">
+ <form action="index.php" method ="POST">
  <div class="box">
         <fieldset class="field">Da Área RJ              
             <br> <br> <label class="cadastrar">Cadastre-se:</label>
@@ -72,6 +71,9 @@
                             <br>
                             <br>
                             <button class="btn btn-primary" name="submit" id="submit" type="submit">Enviar</button>
+                            <fiedlset>
+                            Já é um usuário registrado? <a href="indexlogin.php">Acesse aqui</a>
+                            </fieldset>
         </fieldset>
       </div>
      </form>
