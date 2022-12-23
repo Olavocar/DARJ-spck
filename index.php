@@ -73,7 +73,7 @@ session_start();
                             <br>
                             <button class="btn btn-primary" name="submit" id="submit" type="submit">Enviar</button>
                             <br>
-                            <fiedlset>
+                            <fiedlset><br>
                             Já é um usuário registrado?
                             <a href="https://daarearj.herokuapp.com/indexlogin.php">Acesse aqui</a>
                             </fieldset>
