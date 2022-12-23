@@ -33,7 +33,7 @@
 
         <title>Cadastro</title>
 </head>
- <body>
+ <body class="box">
   <div class="container">
     <div class="row">
      <div class="col mt-5">
