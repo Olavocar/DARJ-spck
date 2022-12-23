@@ -7,7 +7,7 @@ if(empty($_POST['email']) || empty($_POST['senha'])) {
 	exit();
 }
 
-$usuario = mysqli_real_escape_string($conn, $_POST['email']);
+$email = mysqli_real_escape_string($conn, $_POST['email']);
 $senha = mysqli_real_escape_string($conn, $_POST['senha']);
 
 $query = "select email from cadastro where email = '{$email}' and senha = '{$senha}'";
