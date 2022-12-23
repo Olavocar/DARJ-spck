@@ -23,16 +23,6 @@ session_start();
         exit();
         }   
 ?>
-<?php
-                    if(isset($_SESSION['nao_autenticado'])):
-                    ?>
-                    <div class="notification is-danger">
-                      <p>ERRO: Usuário ou senha inválidos.</p>
-                    </div>
-                    <?php
-                    endif;
-                    unset($_SESSION['nao_autenticado']);
-                    ?>
 
 <!DOCTYPE html>
 <html lang="en">
