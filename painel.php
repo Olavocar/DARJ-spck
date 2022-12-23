@@ -118,19 +118,19 @@ siga nossas redes sociais:
 <!-- END --></article>
 
 <div class="post">
-<b><h2>Selo/Produtora/Gravadora Independente</h2></b>
+<b><h2>Afiliados</h2></b>
 
 <div class="main">
 
 <div class="box">
-<h1><b>vQuem somos</b></h1>
+<b>volao</b>
 <br><br>
 </div>
 <div class="miudo">
 <div class="photo">
+<img src="imgs/afiliados/solitario.jpg" width="100px" height="100px">
+</div>
 <article class="texto">
-Localizados em Niterói, RJ
-<br><br>
 Nascido e criado na Zona Sul do RJ, sempre teve a influência<br> de boa música em sua vida, do erudito ao funk, arriscou<br> suas primeiras composições em '96 mescladas com <br>textos confusos em meio à muita drogadição que foi mais tarde lhe causando<br> muitos problemas. Acabou fazendo de sua obra, sua música<br> uma válvula de escape, um pprazer, uma terapia.<br>
 </article>
 </div>
@@ -138,6 +138,21 @@ Nascido e criado na Zona Sul do RJ, sempre teve a influência<br> de boa música
 <div class="box"><br>
 <b>Adictos</b><br>
 <br>
+</div>
+
+<div class="miudo">
+<div class="photo">
+<img src="imgs/afiliados/adictos.jpg" width="100px" height="100px">
+</div>
+
+<article class="texto">
+Nascido e criado na Zona Sul do RJ, sempre teve a influência<br> de boa música em sua vida, do erudito ao funk, arriscou<br> suas primeiras composições em '96 mescladas com <br>textos confusos em meio à muita drogadição que foi mais tarde lhe causando<br> muitos problemas. Acabou fazendo de sua obra, sua música<br> uma válvula de escape, um prazer, uma terapia.<br>
+</article>
+
+
+
+</div>
+</div>
 </div>
 
 <!-- BEGIN -->
