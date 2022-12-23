@@ -1,0 +1,191 @@
+<?php
+session_start();
+include('verifica_login.php');
+?>
+<div clas="session">
+<b>Olá, <?php echo $_SESSION['email'];?></b>
+<b><a href="logout.php">Sair</a></b>
+</div>
+
+<!doctype html>
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RNBEEP96R5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RNBEEP96R5');
+</script>
+<meta charset=utf-8>
+<title>Contato</title>
+<link href=favicon_io/favicon-16x16.png rel=icon>
+<link href=estilo.css rel=stylesheet>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-240370538-2"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","UA-240370538-2");</script>
+<meta name=lomadee-verification content=23139291 />
+</head>
+<body id=bg><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Menu</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="painel.php">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gravacao.php">Gravação</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mixmaster.php">Mix/Master</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="beats.php">Beats</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="videoclipes.php">Video Clipes</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="distribuicaodigital.php">Distribuição Digital</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mktdigital.php">Marketing Digital & Impulsionamento</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="playlists.php">Playlists</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contato.php">Contato</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="afiliados.php">Afiliados</a>
+            </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+<header id=topo>
+<div id=logo>
+<img src=imgs/logonovodarj.png alt=Logo title=Logo>
+<div id=imagem>
+<img src=imgs/arquivos/banner.jpg width="720px" alt=Favela&Piano title=Favela&Piano>
+</div>
+</div>
+<div class=blank>
+<div class-=links><b>
+siga nossas redes sociais:
+</b>
+<div class=icones>
+<a href=https://www.facebook.com/daarearj target=_blank>
+<img src=imgs/linkslogos/facebook.png alt=Facebook title=Facebook>
+</a>
+<a href=https://www.instagram.com/daarearj target=_blank>
+<img src=imgs/linkslogos/instagram.png alt=Instagram title=Instagram>
+</a>
+<a href=https://twitter.com/DaareaRJ target=_blank>
+<img src=imgs/linkslogos/twitter.png alt=Twitter title=Twitter>
+</a>
+<a href=https://soundcloud.com/daarearj target=_blank>
+<img src=imgs/linkslogos/soundcloud.png alt=Soundcloud title=Soundcloud>
+</a>
+<a href=https://www.youtube.com/channel/UCD4to51oOgeONWXPBgOcpTQ target=_blank>
+<img src=imgs/linkslogos/youtube.png alt=Youtube title=Youtube>
+</a>
+<a href="https://open.spotify.com/artist/3bFWviDYBQ8sDsTDpf3tcK?si=-M-rO1V7Tv-6XWW8j04aVw" target=_blank>
+<img src=imgs/linkslogos/spotify.png alt=Spotify title=Spotify>
+</a>
+<a href="https://api.whatsapp.com/send?phone=5521980958408&text=Ol%C3%A1!%20Pode%20me%20ajudar%3F" target=_blank>
+<img src=imgs/linkslogos/whatsapp.png alt=Whatsapp title=Whatsapp>
+</a>
+</div>
+</div>
+</div>
+</header>
+<main id=conteudo><!-- BEGIN -->
+<script src="//ad.lomadee.com/banners/script.js?sourceId=37684855&dimension=3&height=600&width=120&method=0" type="text/javascript" language="javascript"></script>
+<!-- END -->
+<article class=espaco><form action="https://formsubmit.co/e5b8087f27cca6b5bd58f06eda636c81" method="POST"><b><h2>Contato</h2>
+</b><h1 id=fontcolor>Entre em contato:</h1>
+<fieldset>
+<legend>Dados Pessoais</legend>
+<p>
+<label for=nome>Nome</label>
+<input type=text name=nome placeholder="Nome Completo" required>
+</p>
+<p>
+<label for=email>E-mail</label>
+<input type=email name=email placeholder="E-mail válido" required>
+</p>
+<p>
+<label for=tel>Telefone</label>
+<input type=tel name=tel>
+</p>
+</fieldset>
+<fieldset>
+<legend>Dados adicionais:</legend>
+<p>
+<label for=estado>Estado</label>
+<select name=estado>
+<option value=ac>Acre</option>
+<option value=al>Alagoas</option>
+<option value=ap>Amapá</option>
+<option value=am>Amazonas</option>
+<option value=ba>Bahia</option>
+<option value=ce>Ceará</option>
+<option value=df>Distrito Federal</option>
+<option value=es>Espírito Santo</option>
+<option value=go>Goiás</option>
+<option value=ma>Maranhão</option>
+<option value=mt>Mato Grosso</option>
+<option value=ms>Mato Grosso do Sul</option>
+<option value=mg>Minas Gerais</option>
+<option value=pa>Pará</option>
+<option value=pb>Paraíba</option>
+<option value=pr>Paraná</option>
+<option value=pe>Pernambuco</option>
+<option value=pi>Piauí</option>
+<option value=rj>Rio de Janeiro</option>
+<option value=rn>Rio Grande do Norte</option>
+<option value=rs>Rio Grande do Sul</option>
+<option value=ro>Rondônia</option>
+<option value=rr>Roraima</option>
+<option value=sc>Santa Catarina</option>
+<option value=sp>São Paulo</option>
+<option value=se>Sergipe</option>
+<option value=to>Tocantins</option>
+</select>
+</p>
+<fieldset>
+<legend>Mande sua mensagem</legend>
+<p>
+<label for=mensagem>Mensagem</label><br>
+<textarea id=caixamsg name=mensagem></textarea>
+</p>
+<p>
+<input type=submit value=enviar>
+<input type="hidden" name="_next" value="https://daarearj.com/thanks.html">
+</p>
+</fieldset>	
+</form>
+</article>
+<article><!-- BEGIN -->
+<script src="//ad.lomadee.com/banners/script.js?sourceId=37684855&dimension=5&height=600&width=160&method=0" type="text/javascript" language="javascript"></script>
+<!-- END --></article>
+</main>
+<footer><b>Contato:<br>daarearj@gmail.com | +55 (21) 98095-8408</b>
+</footer>
+</body>
+</html>
