@@ -13,7 +13,7 @@ session_start();
     <link href="style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="box">
     <section class="hero is-success is-fullheight">
         <div class="hero-body">
             <div class="container has-text-centered">
