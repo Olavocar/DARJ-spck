@@ -14,7 +14,7 @@
             $senha = $_POST['senha'];
             $telefone = $_POST['telefone'];
             $data_nasc = $_POST['data_nasc'];        
-            $query = mysqli_query($conn, "INSERT INTO cadastro (nome, sobrenome, email, senha, telefone, data_nasc) VALUES ('$nome', '$sobrenome', '$email', '$senha', '$telefone', '$data_nasc')");
+            $query = mysqli_query($conn, "INSERT INTO cadastro (nome, sobrenome, email, senha, telefone, data_nasc) VALUES ('$nome', '$sobrenome', '$email', md5 ('$senha'), '$telefone', '$data_nasc')");
     }
         if($query){
         echo 'Cadastro realizado com sucesso';
@@ -37,7 +37,7 @@
   <div class="container">
     <div class="row">
      <div class="col mt-5">
- <form action="index.php" method ="POST">
+ <form action="login.php" method ="POST">
  <div class="box">
         <fieldset class="field">Da Área RJ              
             <br> <br> <label class="cadastrar">Cadastre-se:</label>
