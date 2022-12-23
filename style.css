@@ -1,0 +1,6 @@
+@charset "UTF-8";
+.box{
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
