@@ -1,4 +1,4 @@
-body {width:100%;height:1000px;background-image:linear-gradient(yellow,gray);}
+body {width:100%;height:100%;background-image:linear-gradient(yellow,gray);}
 	
 #menu{height:auto;justify-content:center;font-size:18px;font-weight:bold;}
 
@@ -112,3 +112,20 @@ img #pl1{height:600px}
 #block{height:100%;display:block;}
 
 .texto{display:flex;font-size:22px;margin-left:40px;font-family:'Glocester MT Extra Condensed','sans-serif','Arial';}
+
+.form{
+    height:100%;
+    font-size:12px;
+}
+
+.form2{
+    margin-right:20px;
+}
+
+.dados{
+    font-size: 16px;
+}
+
+.action{
+    margin-left: 20px;
+}

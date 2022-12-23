@@ -122,10 +122,10 @@ siga nossas redes sociais:
 <p>(Spotify)<br>1k Plays = R$ 50
 <br>1k Plays + Ouvintes = R$ 70<br>1k seguidores = R$ 50<br>1k Ouvintes = R$ 30</p>
 <p>(Youtube)<br>1k Views = R$ 100<br>1k Inscritos = R$ 300</p>Caso opte por já efetuar o pagamento e<br>contratar o impulsionamento digital o nosso plano padrão é de 1k de plays<br>no spotify com duração de 1 mês por R$ 70,00.<br>Efetuando o pagamento é só mandar o link da sua música</b>
-</article><article><form action="https://formsubmit.co/e5b8087f27cca6b5bd58f06eda636c81" method="POST"><b><h3>Marketing Digital</h3>
-</b><h4 id=fontcolor>Escolha seu Impulsionamento:</h4>
-<fieldset>
-<legend>Dados Pessoais</legend>
+</article><div class="form"><article class="form2"><form action="https://formsubmit.co/e5b8087f27cca6b5bd58f06eda636c81" method="POST"><b>Marketing Digital
+</b><br><b>Escolha seu Impulsionamento:</b>
+<fieldset><br>
+<legend class="dados"><b>Dados Pessoais</b></legend>
 <p>
 <label for=nome>Nome</label>
 <input type=text name=nome placeholder="Nome Completo" required>
@@ -156,18 +156,15 @@ siga nossas redes sociais:
 <label for=link>Link:</label>
 <input type=link name=link required>
 </fieldset>
-<fieldset>
-<legend>Mande sua mensagem (Opcional)</legend>
-<p>
+<fieldset><br>
+<legend class="dados">Mande sua mensagem (Opcional)</legend>
 <label for=mensagem>Mensagem</label><br>
 <textarea id=caixamsg name=mensagem></textarea>
-</p>
 <p>Envie seu pedido e você será redirecionado para a página de pagamento<br>
 É muito importante que você faça corretamente o pagamento , com o valor do respectivo pedido.<br>Não os responsabiliamos por pedidos feitos de maneira errada</p>
-<input type=submit value=enviar>
-<input type="hidden" name="_next" value="https://daarearj.com/pagamento.html">
+<button type="submit" value="https://daarearj.com/pagamento.php">Enviar</button>
 </p>
-<button type="submit" name="submit" id="submit">Enviar</button>
+</div>
 </fieldset>
 </form>
 </article>
