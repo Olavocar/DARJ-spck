@@ -30,7 +30,7 @@ session_start();
                     unset($_SESSION['nao_autenticado']);
                     ?>
                     <div class="box">
-                        <form action="painel.php" method="POST">
+                        <form action="login.php" method="POST">
                             <div class="field">
                                 <div class="control">
                                     <input name="email" name="text" placeholder="Digite seu email">
