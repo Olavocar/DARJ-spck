@@ -71,9 +71,10 @@
                             <br>
                             <br>
                             <button class="btn btn-primary" name="submit" id="submit" type="submit">Enviar</button>
+                            <br>
                             <fiedlset>
-                            Já é um usuário registrado? <br>
-                            <a href="indexlogin.php">Acesse aqui</a>
+                            Já é um usuário registrado?
+                            <a href="https://daarearj.com/indexlogin.php">Acesse aqui</a>
                             </fieldset>
         </fieldset>
       </div>
