@@ -75,7 +75,7 @@ session_start();
                             <br>
                             <fiedlset>
                             Já é um usuário registrado?
-                            <a href="https://daarearj.com/indexlogin.php">Acesse aqui</a>
+                            <a href="https://daarearj.herokuapp.com/indexlogin.php">Acesse aqui</a>
                             </fieldset>
         </fieldset>
       </div>
