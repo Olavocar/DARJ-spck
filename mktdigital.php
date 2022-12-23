@@ -4,9 +4,8 @@ include('verifica_login.php');
 ?>
 <div clas="session">
 <b>Olá, <?php echo $_SESSION['email'];?></b>
-<b><a href="logout.php">Sair</a></b>
+<a href="logout.php">Sair</a><br>
 </div>
-
 <!doctype html>
 <html>
 <head>
@@ -168,6 +167,7 @@ siga nossas redes sociais:
 <input type=submit value=enviar>
 <input type="hidden" name="_next" value="https://daarearj.com/pagamento.html">
 </p>
+<button type="submit" name="submit" id="submit">Enviar</button>
 </fieldset>
 </form>
 </article>

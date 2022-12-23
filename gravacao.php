@@ -4,7 +4,7 @@ include('verifica_login.php');
 ?>
 <div clas="session">
 <b>Olá, <?php echo $_SESSION['email'];?></b>
-<b><a href="logout.php">Sair</a></b>
+<a href="logout.php">Sair</a><br>
 </div>
 <!doctype html>
 <html>
