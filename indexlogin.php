@@ -1,65 +1,49 @@
 <?php
 session_start();
-include('config.php');
-
-if(empty($_POST['email']) || empty($_POST['senha'])) {
-	header('Location: index.php');
-	exit();
-}
-
-$usuario = mysqli_real_escape_string($conn, $_POST['email']);
-$senha = mysqli_real_escape_string($conn, $_POST['senha']);
-
-$query = "select usuario from usuario where usuario = '{$email}' and senha = md5('{$senha}')";
-
-$result = mysqli_query($conn, $query);
-
-$row = mysqli_num_rows($result);
-
-if($row == 1) {
-	$_SESSION['email'] = $email;
-	header('Location: painel.php');
-	exit();
-} else {
-	$_SESSION['nao_autenticado'] = true;
-	header('Location: index.php');
-	exit();
-}
 ?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Login</title>
+    <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
-<?php
-        if(isset($_SESSION['nao_autenticado'])):
-        ?>
-        <div class="notification is-danger">
-        <p>ERRO: Usuário ou senha inválidos.</p>
-        </div>
-        <?php
-        endif;
-        unset($_SESSION['nao_autenticado']);
-        ?>
-    <div class="box">
-    <form action="login.php" method="POST">
-    <p>     
-        <label>Email:</label>
-            <input type="text" name="email" placeholder="Digite seu email">
-    </p>
-    <p>     
-        <label>senha:</label>
-            <input type="password" name="senha" placeholder="Digite sua senha">
-    </p>
-    <p>
-            <button type="submit">Entrar</button>
-    </p>
-    </form>
+    <section class="hero is-success is-fullheight">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="column is-4 is-offset-4">
+                    <h3>Login</h3>
+                    <?php
+                    if(isset($_SESSION['nao_autenticado'])):
+                    ?>
+                    <div class="notification is-danger">
+                      <p>ERRO: Usuário ou senha inválidos.</p>
+                    </div>
+                    <?php
+                    endif;
+                    unset($_SESSION['nao_autenticado']);
+                    ?>
+                    <div class="box">
+                        <form action="login.php" method="POST">
+                            <div class="field">
+                                <div class="control">
+                                    <input name="email" name="text" placeholder="Digite seu email">
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <div class="control">
+                                    <input name="senha" type="password" placeholder="insira sua senha">
+                                </div>
+                            </div>
+                            <button type="submit">Entrar</button>
+                        </form>
     </div>
 </body>
 </html>
