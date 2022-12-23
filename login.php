@@ -7,10 +7,10 @@ if(empty($_POST['email']) || empty($_POST['senha'])) {
 	exit();
 }
 
-$usuario = mysqli_real_escape_string($conn, $_POST['email']);
+$email = mysqli_real_escape_string($conn, $_POST['email']);
 $senha = mysqli_real_escape_string($conn, $_POST['senha']);
 
-$query = "select email from login where email = '{$email}' and senha = '{$senha}'";
+$query = "select email from login where email = '{$email}' and senha = '$senha'";
 
 $result = mysqli_query($conn, $query);
 
