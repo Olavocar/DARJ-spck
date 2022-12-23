@@ -115,8 +115,9 @@ siga nossas redes sociais:
 </header>
 <main id=conteudo>
 <article><!-- BEGIN -->
-<script src="//ad.lomadee.com/banners/script.js?sourceId=37684855&dimension=5&height=600&width=160&method=0" type="text/javascript" language="javascript"></script><!-- END --></article><article class="action"><p><b>Faça o pagamento:</b></p><br><p>É muito importante que você faça corretamente o pagamento , com o valor do respectivo pedido.<br>Não nos responsabilizamos por pedidos feitos de maneira errada</p><input type=submit value=Pagar>
-<input type="hidden" name="_next" value="https://nubank.com.br/pagar/lvlyn/lyCABkDSis"></article>
+<script src="//ad.lomadee.com/banners/script.js?sourceId=37684855&dimension=5&height=600&width=160&method=0" type="text/javascript" language="javascript"></script><!-- END --></article><article class="action"><p><b>Faça o pagamento:</b></p><br><p>É muito importante que você faça corretamente o pagamento , com o valor do respectivo pedido.<br>Não nos responsabilizamos por pedidos feitos de maneira errada</p><input type="hidden" name="_next" value="https://nubank.com.br/pagar/lvlyn/lyCABkDSis">
+<button type="submit">Pagar</button>
+</article>
 </main>
 <footer><b>Contato:<br>daarearj@gmail.com | +55 (21) 98095-8408</b>
 </footer>
