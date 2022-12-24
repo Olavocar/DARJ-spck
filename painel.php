@@ -122,22 +122,22 @@ siga nossas redes sociais:
 
 <div class="main">
 <b>Quem somos:</b>
-<br><br>
-Localizados em Niterói, RJ
+<br><br><b>
+Localizados em Niterói, RJ<br>
 Venha gravar seu som conosco, traga sua base ou encomende um instrumental,<br>
 consulte nossos serviços e solicite um orçamento.
 Faça sua mixagem e masterização, seu videoclipe, sua distribuição<br>
 nas plataformas digitais , seu marketing e impulsionamento digital.
-Trabalhamos também com Playlists, inclua suas músicas.
+Trabalhamos também com Playlists, inclua suas músicas.</b>
 <div class="box">
 
-<br><br>
+<br><br><b>
 Conheça alguns de nossos trabalhos , inscreva-se no nosso canal no Youtube,<br>
 curta e compartilhe à vontade.
 Se você deseja ajudar de alguma maneira com qualquer valor até mesmo R$ 1,00<br>
 você pode fazer um PIX para:
-+55 (21) 98095-8408
-Toda e qualquer ajuda é bem vinda
++55 (21) 98095-8408<br>
+Toda e qualquer ajuda é bem vinda</b>
 </div>
 </div>
 
