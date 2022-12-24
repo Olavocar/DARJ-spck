@@ -122,7 +122,7 @@ siga nossas redes sociais:
 
 <div class="main">
 
-<div class="box">
+<div class="box2">
 <b>volao</b>
 <br><br>
 </div>
@@ -135,7 +135,7 @@ Nascido e criado na Zona Sul do RJ, sempre teve a influência<br> de boa música
 </article>
 </div>
 
-<div class="box"><br>
+<div class="box2"><br>
 <b>Adictos</b><br>
 <br>
 </div>
