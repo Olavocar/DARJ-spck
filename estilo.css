@@ -1,4 +1,4 @@
-body {width:100%;height:100%;background-image:linear-gradient(yellow,gray);}
+body {width:100%;height:100%;font-family:'Gloucester MT Extra Condensed','sans-serif','Arial';background-image:linear-gradient(yellow,gray);}
 	
 #menu{height:auto;justify-content:center;font-size:18px;font-weight:bold;}
 
