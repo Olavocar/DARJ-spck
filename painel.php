@@ -118,40 +118,22 @@ siga nossas redes sociais:
 <!-- END --></article>
 
 <div class="post">
-<b><h2>Afiliados</h2></b>
+<b><h2>Selo / Produtora / Gravadora Independente</h2></b>
 
 <div class="main">
-
-<div class="box">
-<b>volao</b>
+<b>Quem somos:</b>
 <br><br>
-</div>
-<div class="miudo">
-<div class="photo">
-<img src="imgs/afiliados/solitario.jpg" width="100px" height="100px">
-</div>
-<article class="texto">
-Nascido e criado na Zona Sul do RJ, sempre teve a influência<br> de boa música em sua vida, do erudito ao funk, arriscou<br> suas primeiras composições em '96 mescladas com <br>textos confusos em meio à muita drogadição que foi mais tarde lhe causando<br> muitos problemas. Acabou fazendo de sua obra, sua música<br> uma válvula de escape, um pprazer, uma terapia.<br>
-</article>
-</div>
+Localizados em Niterói, RJ
+Venha gravar seu som conosco, traga sua base ou encomende um instrumental, consulte nossos serviços e solicite um orçamento.
+Faça sua mixagem e masterização, seu videoclipe, sua distribuição nas plataformas digitais , seu marketing e impulsionamento digital.
+Trabalhamos também com Playlists, inclua suas músicas.
+<div class="box">
 
-<div class="box"><br>
-<b>Adictos</b><br>
-<br>
-</div>
-
-<div class="miudo">
-<div class="photo">
-<img src="imgs/afiliados/adictos.jpg" width="100px" height="100px">
-</div>
-
-<article class="texto">
-Nascido e criado na Zona Sul do RJ, sempre teve a influência<br> de boa música em sua vida, do erudito ao funk, arriscou<br> suas primeiras composições em '96 mescladas com <br>textos confusos em meio à muita drogadição que foi mais tarde lhe causando<br> muitos problemas. Acabou fazendo de sua obra, sua música<br> uma válvula de escape, um prazer, uma terapia.<br>
-</article>
-
-
-
-</div>
+<br><br>
+Conheça alguns de nossos trabalhos , inscreva-se no nosso canal no Youtube, curta e compartilhe à vontade.
+Se você deseja ajudar de alguma maneira com qualquer valor até mesmo R$ 1,00 você pode fazer um PIX para:
++55 (21) 98095-8408
+Toda e qualquer ajuda é bem vinda
 </div>
 </div>
 
