@@ -18,7 +18,8 @@ session_start();
         <div class="hero-body">
             <div class="container has-text-centered">
                 <div class="column is-4 is-offset-4">
-                    <h3>Login</h3>
+                <div class="box">    
+                <h3>Login</h3>
                     <?php
                     if(isset($_SESSION['nao_autenticado'])):
                     ?>
@@ -44,6 +45,11 @@ session_start();
                             </div>
                             <button type="submit">Entrar</button>
                         </form>
+                </div>
     </div>
+    </div>
+    </div>
+    </div>
+</section>
 </body>
 </html>
