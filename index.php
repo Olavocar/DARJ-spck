@@ -30,15 +30,15 @@ session_start();
         <meta charset="utf-8">
         <meta name="viewport" content="width-device-width, initial-scale-1">
 
-        <link href="style.css" rel="stylesheet">
+        <link href="estilo.css" rel="stylesheet">
 
         <title>Cadastro</title>
 </head>
- <body class="box">
-  <div class="container">
-    <div class="row">
-     <div class="col mt-5">
- <form action="index.php" method ="POST">
+ <body>
+  <div class="box">
+    <div class="box">
+     <div class="box">
+ <form class="box" action="index.php" method ="POST">
  <div class="box">
         <fieldset class="field">Da Área RJ              
             <br> <br> <label class="cadastrar">Cadastre-se:</label>

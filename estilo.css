@@ -1,4 +1,4 @@
-body {width:100%;height:100%;font-family:'Gloucester MT Extra Condensed','sans-serif','Arial';background-image:linear-gradient(yellow,gray);}
+body{width:100%;height:100%;font-family:'Gloucester MT Extra Condensed','sans-serif','Arial';background-image:linear-gradient(yellow,gray);}
 	
 #menu{height:auto;justify-content:center;font-size:18px;font-weight:bold;}
 
@@ -67,9 +67,11 @@ body {width:100%;height:100%;font-family:'Gloucester MT Extra Condensed','sans-s
 
 .afili{width:100%;height:100%;margin:auto;}
 
-.box{width:100%;height:100%;display:block;margin:auto;margin-left:auto;margin-right:auto;}
+.box{width:100%;height:100%;justify-content:center;align-items:center;display:flex;margin:auto;margin-left:auto;margin-right:auto;}
 
 .box2{width:100%;height:100%;display:flex;margin:auto;}
+
+.box3{border:1px;}
 
 .photo{width:160px;height:240px;display:flex;} img .photo{border:10px;}
 
@@ -101,7 +103,7 @@ img #pl1{height:600px}
 
 #lado{width:auto;height:100%;float:left;margin-top:0px;margin-left:10px;display:flex}
 
-.coluna{width:auto;height:100%;}
+#coluna1{width:auto;height:100%;}
 
 .id{padding:40px 20px 40px 10px;font-family:'Gloucester MT Extra Condensed','sans-serif','Arial';font-size:12px;font:bolder;font-style:italic}
 

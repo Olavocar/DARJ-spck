@@ -10,46 +10,43 @@ session_start();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Login</title>
-    <link href="style.css" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
 </head>
 
-<body class="container">
-    <section class="hero is-success is-fullheight">
-        <div class="hero-body">
-            <div class="container has-text-centered">
-                <div class="column is-4 is-offset-4">
+<body>
+            <div class="box3">
                 <div class="box">    
                 <h3>Login</h3>
+                    <br>
+                </div>
                     <?php
                     if(isset($_SESSION['nao_autenticado'])):
                     ?>
-                    <div class="notification is-danger">
+                    <div class="box">
                       <p>ERRO: Usuário ou senha inválidos.</p>
                     </div>
                     <?php
                     endif;
                     unset($_SESSION['nao_autenticado']);
                     ?>
+                    <br>
                     <div class="box">
                         <form action="login.php" method="POST">
-                            <div class="field">
-                                <div class="control">
+                            <div>
+                                <div>
                                     <input name="email" name="text" placeholder="Digite seu email">
                                 </div>
                             </div>
-
-                            <div class="field">
-                                <div class="control">
+                            <br>
+                            <div>
+                                <div>
                                     <input name="senha" type="password" placeholder="insira sua senha">
                                 </div>
                             </div>
+                            <br>
                             <button type="submit">Entrar</button>
                         </form>
-                </div>
-    </div>
-    </div>
-    </div>
-    </div>
-</section>
+                        </div>
+                    </div>
 </body>
 </html>
