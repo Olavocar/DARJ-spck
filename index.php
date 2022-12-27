@@ -35,8 +35,10 @@ session_start();
         <title>Cadastro</title>
 </head>
  <body>
-  <div class="box">
-    <div class="box">
+  <header>
+  </header>
+  <main>
+  <div id="topo2"></div>
      <div class="box">
  <form class="box" action="index.php" method ="POST">
  <div class="box">
@@ -80,10 +82,9 @@ session_start();
         </fieldset>
       </div>
      </form>
-    </div>
-   </div>
   </div>
- </body>
+</main>
+</body>
 </html>
 
 <!--

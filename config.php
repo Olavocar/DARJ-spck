@@ -11,4 +11,18 @@
         echo "Não foi possível conectar";
     }
     
+function ChavedeAcesso($email){
+    $stmt = ("SELECT * from cadastro WHERE email = $email");
+    $stmt ->bindValue(":email", $email);
+    $run = $stmt->execute();
+
+    $rs = $stmt->fetch(PDO::FETCH_ASSOC);
+    if($rs){
+        $chave = sha1($rs["id"].$rs["senha"]);
+        return $rs;
+    }
+    
+}
+
+
 ?>

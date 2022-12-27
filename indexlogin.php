@@ -1,7 +1,6 @@
 <?php
 session_start();
 ?>
-
 <!DOCTYPE html>
 <html>
     
@@ -12,17 +11,17 @@ session_start();
     <title>Login</title>
     <link href="estilo.css" rel="stylesheet">
 </head>
-
 <body>
-            <div class="box3">
-                <div class="box">    
-                <h3>Login</h3>
-                    <br>
-                </div>
+<header>
+</header>
+        <main>
+                <div class="box">
+                    <div class="box4">    
+                <h3>Login:</h3>
                     <?php
                     if(isset($_SESSION['nao_autenticado'])):
                     ?>
-                    <div class="box">
+                    <div>
                       <p>ERRO: Usuário ou senha inválidos.</p>
                     </div>
                     <?php
@@ -30,7 +29,6 @@ session_start();
                     unset($_SESSION['nao_autenticado']);
                     ?>
                     <br>
-                    <div class="box">
                         <form action="login.php" method="POST">
                             <div>
                                 <div>
@@ -47,6 +45,7 @@ session_start();
                             <button type="submit">Entrar</button>
                         </form>
                         </div>
-                    </div>
+                </div>
+</main>
 </body>
 </html>
